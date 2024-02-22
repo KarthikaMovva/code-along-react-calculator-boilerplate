@@ -1,0 +1,22 @@
+
+.total{
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    grid-template-rows: minmax(60px,auto) repeat(5,50px);
+    margin-top: 10px;
+    justify-content: center;
+    margin-top: 10%;
+}
+.equal{
+   width: 100px;
+}
+.input{
+grid-column: 1/-1;
+background-color: black;
+color: white;
+word-wrap: break-word;
+word-break: break-all;
+}
+.start{
+    grid-column: span 2;
+}
